@@ -1,6 +1,6 @@
 import React from "react";
 import "./Work.css";
-import { card1 } from "../../assets";
+import { card1, card2, card3, card4, card5, card6 } from "../../assets";
 const Work = () => {
   return (
     <div className="workContainer">
@@ -41,10 +41,10 @@ const Work = () => {
         <div className="workCard">
           <div className="workCard1">
             <div className="workCardImg">
-              <img src={card1} alt="" className="workCardImgg" />
+              <img src={card2} alt="" className="workCardImgg" />
             </div>
             <div className="cardHeading">
-              <span>Discuss with Colleagues</span>
+              <span>Virtual Reality Concerts</span>
             </div>
             <div className="cardPara">
               <p>
@@ -61,10 +61,10 @@ const Work = () => {
         <div className="workCard">
           <div className="workCard1">
             <div className="workCardImg">
-              <img src={card1} alt="" className="workCardImgg" />
+              <img src={card3} alt="" className="workCardImgg" />
             </div>
             <div className="cardHeading">
-              <span>Discuss with Colleagues</span>
+              <span>Playing Games</span>
             </div>
             <div className="cardPara">
               <p>
@@ -81,10 +81,10 @@ const Work = () => {
         <div className="workCard">
           <div className="workCard1">
             <div className="workCardImg">
-              <img src={card1} alt="" className="workCardImgg" />
+              <img src={card4} alt="" className="workCardImgg" />
             </div>
             <div className="cardHeading">
-              <span>Discuss with Colleagues</span>
+              <span>Online Travel</span>
             </div>
             <div className="cardPara">
               <p>
@@ -101,10 +101,10 @@ const Work = () => {
         <div className="workCard">
           <div className="workCard1">
             <div className="workCardImg">
-              <img src={card1} alt="" className="workCardImgg" />
+              <img src={card5} alt="" className="workCardImgg" />
             </div>
             <div className="cardHeading">
-              <span>Discuss with Colleagues</span>
+              <span>Artworks</span>
             </div>
             <div className="cardPara">
               <p>
@@ -121,10 +121,10 @@ const Work = () => {
         <div className="workCard">
           <div className="workCard1">
             <div className="workCardImg">
-              <img src={card1} alt="" className="workCardImgg" />
+              <img src={card6} alt="" className="workCardImgg" />
             </div>
             <div className="cardHeading">
-              <span>Discuss with Colleagues</span>
+              <span>Digital Clothing</span>
             </div>
             <div className="cardPara">
               <p>

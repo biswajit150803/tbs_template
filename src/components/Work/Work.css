@@ -137,3 +137,21 @@
     margin: 2px;
 
 }
+@media(max-width:900px)
+{
+    .workContainer{
+        width: 90vw;
+    }
+    .workPara{
+        width: 80vw;
+    }
+    .workCard{
+        width: 80vw;
+    }
+    .workCardImgg{
+        width: 75vw;
+    }
+    .cardPara{
+        width:65vw ;
+    }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { BsLinkedin } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 const Footer = () => {
   return (
     <div className="footerContainer">
@@ -75,13 +75,13 @@ const Footer = () => {
             <BsLinkedin className="iconn" />
           </div>
           <div className="icon">
-            <BsLinkedin className="iconn" />
+            <BsTwitter className="iconn" />
           </div>
           <div className="icon">
-            <BsLinkedin className="iconn" />
+            <BsInstagram className="iconn" />
           </div>
           <div className="icon">
-            <BsLinkedin className="iconn" />
+            <BsFacebook className="iconn" />
           </div>
         </div>
         <div className="footerPara">

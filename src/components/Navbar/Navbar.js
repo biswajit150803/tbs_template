@@ -11,11 +11,6 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="container">
           <div className="logo">            
-              {/* <img
-                className="logN"
-                src="./Logo.png"
-                alt="nf"
-              />             */}
               <span className="logospan">The Bengal Studio</span>
           </div>
           <div className="menu-icon" onClick={handleShowNavbar}>
